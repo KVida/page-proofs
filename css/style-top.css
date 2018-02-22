@@ -1,0 +1,229 @@
+#wrapper {
+    margin : 0;
+    padding : 0;
+    /*border : 1px solid black;/**/
+}
+
+#top {
+    background : #333;
+    height : 35px;
+    overflow : hidden;
+}
+
+.current .container-fluid,
+.lang .container-fluid,
+.navHeaderMenu .container-fluid{
+  margin : 0;
+  padding : 0;
+}
+
+.topMenu .navbar-default,
+.current .navbar-default,
+.lang .navbar-default {
+    background : #333;
+    border: none;
+}
+
+.current .navbar-default .navbar-nav a,
+.lang .navbar-default .navbar-nav a {
+    width :36px;
+    height : 35px;
+    text-align : center;
+    background : #333;
+    padding : 0px;
+    color : #999;
+}
+
+.topMenu .navbar-default .navbar-nav a {
+    padding : 0 14px;
+    height : 35px;
+    text-align : center;
+    position : relative;
+    font : bold 11px/35px 'PT Sans', Arial, Verdana, sans-serif;
+}
+
+.lang .navbar-default .navbar-nav a {
+    font : bold 11px/35px 'PT Sans', Arial, Verdana, sans-serif;
+}
+
+.current .navbar-default .navbar-nav a {
+    font : bold 13px/35px 'PT Sans', Arial, Verdana, sans-serif;
+}
+
+.topMenu .navbar-default .navbar-nav a:hover,
+.current .navbar-default .navbar-nav a:hover,
+.lang .navbar-default .navbar-nav a:hover {
+    background : #000;
+}
+
+.topMenu .navbar-default .navbar-nav > .active > a,
+.topMenu .navbar-default .navbar-nav > .active > a:hover, 
+.topMenu .navbar-default .navbar-nav > .active > a:focus,
+.current .navbar-default .navbar-nav > .active > a,
+.current .navbar-default .navbar-nav > .active > a:hover, 
+.current .navbar-default .navbar-nav > .active > a:focus,
+.lang .navbar-default .navbar-nav > .active > a, 
+.lang .navbar-default .navbar-nav > .active > a:hover, 
+.lang .navbar-default .navbar-nav > .active > a:focus {
+    padding : 0px;
+    background : #393939!important;
+    color : #ddd;
+}
+
+#header {
+    margin-top : 33px;
+    padding : 0;
+    min-height : 137px;
+}
+
+.logoImg img {
+    padding : auto;
+    margin : auto;
+}
+
+.logoImg p {
+    margin : 7px 16px 0 0;
+    font : italic 12px/12px 'PT Sans', Arial, Verdana, sans-serif;
+}
+
+.headerBox1 {
+    height : 66px;
+}
+
+.headerBox1 .lineBox hr {
+    height : 1px;
+    margin : 5px 12px 12px 0;
+    padding: 0 12px;
+}
+
+.logoTagline {
+    font : normal 13px/20px 'PT Sans', Arial, Verdana, sans-serif;
+    margin : 20px 0 0 0;
+    color : #777;   
+}
+
+.logoTagline p a {
+    text-decoration : underline;
+    color : #000;
+}
+
+.searchANDcart {
+    margin : 15px 0 0 0; 
+    padding : 0 0; 
+    position : absolute;
+}
+
+.searchFormBox,
+.buttonCartBox {
+    margin : 0 0; 
+    padding : 0 0; 
+}
+
+.searchBlock {
+    position : absolute;
+}
+
+#wordSearch {
+    font : normal 12px/17px 'PT Sans', Arial, Verdana, sans-serif;
+    border-radius : 17px;
+    margin : 0;
+    padding : 0; 
+    width : 204px;
+    top : 0;
+    left : 0;
+    right : 0;
+    bottom : 0;
+    background : #fff;
+    border : 1px solid #f8f8f8;
+}
+
+.search input:hover {
+    outline : none;
+    box-shadow : 0px 0px 5px #f11;
+    border-color : #f11;
+}
+
+.search input:hover + .buttonSearch {
+    background : #f11;
+}
+
+.search input:focus {
+    outline : none;
+    box-shadow : 0px 0px 5px #777;
+    border-color : #fff;
+}
+
+.buttonSearch {
+    background : #7698c1;
+    border-radius : 17px;
+    width : 34px;
+    height : 34px;
+    text-align : center;
+    border : 0 none;
+    color :#fff;
+    margin : 0;
+    padding : 0;
+    top : 0;
+    left : 169px;
+    right : 0;
+    bottom : 0;
+}
+
+.searchANDcart .col-lg-5 {
+    padding-right : 0;
+    padding-left : 20px;
+}
+
+.buttonCart {
+    background : #eb6447;
+    border-radius : 17px;
+    width : 34px;
+    height : 34px;
+    text-align : center;
+    border : 0 none;
+    color : #fff;
+    margin : 0;
+    padding : 0;
+}
+
+.cartNumber {
+    font : normal 12px/17px 'PT Sans', Arial, Verdana, sans-serif;
+}
+
+.headerMenu {
+    margin :-5px 0 0 0;
+    position : relative;
+}
+
+.headerMenu .navHeaderMenu {
+    border : 0 none;
+    min-height : 36px;
+    background : rgba(255, 255, 255, 0);
+}
+
+.navHeaderMenu .container-fluid .collapseHeaderMenu {
+    margin : 0;
+    padding : 0;
+}
+
+.headerMenu .navbar-default .navbar-nav li a {
+    font : bold 13px/38px 'PT Sans', Arial, Verdana, sans-serif;
+    height : 35px;
+    padding : 0 10px;
+    text-transform : uppercase;
+    border-radius : 19px;
+}
+
+.headerMenu .navbar-default .navbar-nav li > a:hover {
+    padding : 0 10px;
+    background : #f22;
+    color : #fff;  
+}
+
+.headerMenu .navbar-default .navbar-nav > .active > a, 
+.headerMenu .navbar-default .navbar-nav > .active > a:hover, 
+.headerMenu .navbar-default .navbar-nav > .active > a:focus {
+    padding : 0 10px;
+    background : #f5f5f5!important;
+    color : #444;  
+}

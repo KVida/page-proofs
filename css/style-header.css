@@ -1,0 +1,238 @@
+#header {
+    margin-top : 33px;
+    padding : 0;
+    min-height : 137px;
+}
+
+.logoImg img {
+    padding : auto;
+    margin : auto;
+}
+
+.logoImg p {
+    margin : 7px 16px 0 0;
+    font : italic 12px/12px 'PT Sans', Arial, Verdana, sans-serif;
+}
+
+.headerBox1 {
+    height : 66px;
+}
+
+.headerBox1 .lineBox hr {
+    height : 1px;
+    margin : 5px 12px 12px 0;
+    padding: 0 12px;
+}
+
+.logoTagline {
+    font : normal 13px/20px 'PT Sans', Arial, Verdana, sans-serif;
+    margin : 20px 0 0 0;
+    color : #777;   
+}
+
+.logoTagline p a {
+    text-decoration : underline;
+    color : #000;
+}
+
+.searchANDcart {
+    margin : 15px 0 0 0; 
+    padding : 0 0; 
+    position : absolute;
+}
+
+.searchFormBox,
+.buttonCartBox {
+    margin : 0 0; 
+    padding : 0 0; 
+}
+
+.searchBlock {
+    position : absolute;
+}
+
+#wordSearch {
+    font : normal 12px/17px 'PT Sans', Arial, Verdana, sans-serif;
+    border-radius : 17px;
+    margin : 0;
+    padding : 0; 
+    width : 204px;
+    top : 0;
+    left : 0;
+    right : 0;
+    bottom : 0;
+    background : #fff;
+    border : 1px solid #f8f8f8;
+}
+
+.search input:hover {
+    outline : none;
+    box-shadow : 0px 0px 5px #f11;
+    border-color : #f11;
+}
+
+.search input:hover + .buttonSearch {
+    background : #f11;
+}
+
+.search input:focus {
+    outline : none;
+    box-shadow : 0px 0px 5px #777;
+    border-color : #fff;
+}
+
+.buttonSearch {
+    background : #7698c1;
+    border-radius : 17px;
+    width : 34px;
+    height : 34px;
+    text-align : center;
+    border : 0 none;
+    color :#fff;
+    margin : 0;
+    padding : 0;
+    top : 0;
+    left : 169px;
+    right : 0;
+    bottom : 0;
+}
+
+.searchANDcart .col-lg-5 {
+    padding-right : 0;
+    padding-left : 20px;
+}
+
+.buttonCart {
+    background : #eb6447;
+    border-radius : 17px;
+    width : 34px;
+    height : 34px;
+    text-align : center;
+    border : 0 none;
+    color : #fff;
+    margin : 0;
+    padding : 0;
+}
+
+.cartNumber {
+    font : normal 12px/17px 'PT Sans', Arial, Verdana, sans-serif;
+}
+
+.headerMenu {
+    margin :-5px 0 0 0;
+    position : relative;
+}
+
+.headerMenu .navHeaderMenu {
+    border : 0 none;
+    min-height : 36px;
+    background : rgba(255, 255, 255, 0);
+}
+
+.navHeaderMenu .container-fluid .collapseHeaderMenu {
+    margin : 0;
+    padding : 0;
+}
+
+.headerMenu .navbar-default .navbar-nav li a {
+    font : bold 13px/38px 'PT Sans', Arial, Verdana, sans-serif;
+    height : 35px;
+    padding : 0 10px;
+    text-transform : uppercase;
+    border-radius : 19px;
+}
+
+.headerMenu .navbar-default .navbar-nav li > a:hover {
+    padding : 0 10px;
+    background : #f22;
+    color : #fff;  
+}
+
+.headerMenu .navbar-default .navbar-nav > .active > a, 
+.headerMenu .navbar-default .navbar-nav > .active > a:hover, 
+.headerMenu .navbar-default .navbar-nav > .active > a:focus {
+    padding : 0 10px;
+    background : #f5f5f5!important;
+    color : #444;  
+}
+
+#headerBanner {
+    margin : 0;
+    padding : 0;
+    width : 100%;
+    height : 428px;
+    overflow-x : hidden;
+}
+.item img {
+    width : 986px;
+    height : 369px;
+}
+#contentBox1 {
+    height : 160px;
+    margin-top : 75px;
+}
+
+#contentBox1 .row {
+    margin : 0;
+    padding : 0;
+}
+
+#contentBox1 .col-lg-5 div a span {
+    font : normal 17px/21px 'PT Sans', Arial, Verdana, sans-serif;
+    color : #fff;
+}
+
+#contentBox1 .col-lg-5 .aBandBox,
+#contentBox1 .col-lg-5 > .aBandBox:hover {
+    text-decoration : none;
+    color : #000; 
+}
+
+#main {
+    margin : 70px 0;
+}
+
+.product-title {
+    border-bottom : 1px solid #e0e0e0;
+    font : normal 20px/20px 'PT Sans', Arial, Verdana, sans-serif;
+    padding : 0 0 20px 0;
+    text-transform : uppercase;
+}
+
+.featured-products {
+    /*height : 740px;*/
+    overflow : hidden;
+    position : relative;
+}
+.products .numberProduct {
+    height : 345px; 
+    border : 1px solid #ededed;
+    width: 228px;
+    margin: 0 10px 0 0;
+    padding:0;
+}
+.numberProduct .prev a img {
+    background: #f5f5f5;
+    height: 210px;
+    margin: 8px 0 10px 9px;
+    text-align: center;
+    width: 210px;
+}
+
+.products {
+    padding: 40px 0 30px 0;
+}
+
+.numberProduct .title {
+    color: #555;
+    font: normal 12px/18px 'PT Sans', Arial, Verdana, sans-serif;
+    height: 55px;
+    margin: 0;
+    padding: 0 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.numberProduct .hrProduct hr {
+    margin: 0;
+    padding: 0;
+}
